@@ -3,7 +3,7 @@
     box-shadow: 5px 5px 5px black;
     width: fit-content;
     height: 30%;
-    margin-left: 33%;
+    margin-inline: auto;
     margin-top: 12%;
     border: 4px solid;
 }
@@ -43,7 +43,7 @@ button{
     padding-bottom: 5px;
 }
 
-@media (max-width:400px){
+@media (max-width:600px){
     .window{
         display: grid;
         grid-template-columns: repeat(2,1fr);
